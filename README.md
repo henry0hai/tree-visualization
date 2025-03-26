@@ -14,6 +14,7 @@ tree-visualization is a Go-based tool that transforms a hierarchical folder stru
 
 ## Project Structure
 
+```
 tree-visualization/
 ├── Dockerfile
 ├── LICENSE
@@ -30,6 +31,7 @@ tree-visualization/
 ├── test_case_3.png
 └── utils
     └── dot.go
+```
 
 ## Prerequisites
 
