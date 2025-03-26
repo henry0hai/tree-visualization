@@ -15,16 +15,21 @@ tree-visualization is a Go-based tool that transforms a hierarchical folder stru
 ## Project Structure
 
 tree-visualization/
-├── main.go          # Application entry point
-├── go.mod          # Go module dependencies
-├── models/         # Data models
-│   └── node.go
-├── utils/          # Utility functions (DOT and image generation)
-│   └── dot.go
-├── routers/        # API routes
-│   └── api.go
-├── Dockerfile      # Docker configuration
-└── README.md       # This file
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── go.mod
+├── go.sum
+├── main.go
+├── models
+│   └── node.go
+├── routers
+│   └── api.go
+├── test_case_1.png
+├── test_case_2.png
+├── test_case_3.png
+└── utils
+    └── dot.go
 
 ## Prerequisites
 
